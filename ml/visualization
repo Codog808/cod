@@ -1,0 +1,23 @@
+a neuron exists
+A neuron can activate or deactivate, depending on the weights and biasof the neuron interacting with an input.
+The neuron can take infinite amounts of input and outputs a single output.
+- If it was one input one output then the neurons couldn't be connected to one another to create a network of neurons.
+- Understanding the meaning of semantics of words is important to visualize and understand meaning and use.
+_________________________________________
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|_________________________________________
+
