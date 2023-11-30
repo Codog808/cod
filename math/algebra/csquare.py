@@ -18,9 +18,22 @@ def binary_sqrt(n, attempts=9, tolerance=1e-10):
     return guess
 
 def main():
-    print(binary_sqrt(64))
-    print(babylonian_sqrt(64))
-    print("success")
+    for i in range(3):
+        print(babylonian_sqrt(3, i))
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
+# def main():
+#     print(binary_sqrt(64))
+#     print(babylonian_sqrt(64))
+#     print("success")
+
+# if __name__ == '__main__':
+#     main()
+# def babylonian_sqrt(number, iterations=9):
+#     old_guess = number/2
+#     half = 1/2
+#     for _ in range(iterations):
+#         old_guess = half*(old_guess + number/old_guess)
+#     return old_guess
+
