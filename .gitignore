@@ -1,6 +1,8 @@
 html/
 keys/
 htb/
+__pycache__/
+API/github/__pycache__/
 qemu/htb.img
 qemu/Image.img
 qemu/archlinux.iso
