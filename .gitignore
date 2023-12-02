@@ -2,6 +2,7 @@ html/
 keys/
 htb/
 __pycache__/
+__pyvenv__/
 API/github/__pycache__/
 qemu/htb.img
 qemu/Image.img
@@ -24,6 +25,7 @@ ml/open/openai.ky
 ml/open/.env
 ml/gpt/
 randomizer/venv/
+randomizer/hash.png
 web/
 /advent/__pycache__/
 /advent/.git_config.json
