@@ -1,0 +1,3 @@
+within Linux:
+- psensor <command> # to display a visual/graphical interpretation of core temp.
+- lm-sensors <command> # to display a command-line visual of core temp.`

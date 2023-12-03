@@ -1,0 +1,7 @@
+start up command:
+qemu-system-x86_64 -m 4096 -smp 2 -hda virtualdrive.img -cdrom archlinux.iso -enable-kvm
+qemu-system-x86_64 --enable-kvm -cdrom archlinux.iso -m 2G -smp cores=2 -boot d -drive file=prac.img
+
+img command:
+qemu-img create -f qcow2 prac.img 32G
+

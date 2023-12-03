@@ -1,0 +1,10 @@
+Top tips
+# changing the byte level
+- e <command> _ changes the process' numeric units from 'one-byte' to 'increased=byte'
+- E <command> _ changes the overalls numeric units from 'one-byte' to 'increased=byte'
+# process for a single user
+- u <command> _ type a username to only get that users processes
+# color
+- z <command>
+# quit
+- q <command>
