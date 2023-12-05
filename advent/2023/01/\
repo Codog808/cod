@@ -1,9 +1,0 @@
-import re
-
-def part1(file):
-    pattern = r"-?\d+"
-    for line in open(file):
-        line_value = map(string, pattern.findall(line))
-        print(line_value)
-    
-part1("input")
