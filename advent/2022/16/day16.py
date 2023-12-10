@@ -1,7 +1,9 @@
 """
 Elephants have a hand-held device that sends a distress beacon.
 
-We need to get the elephants out of the cave, there is 30 minutes to escape
+We need to get the elephants out of the cave
+- first we must release the pressure of the volacano
+- there is 30 minutes to escape
 
 You can open a system of tunnels with valves that opens pipes
 - it takes a minute to open the valves and another minute to move to a new valve
