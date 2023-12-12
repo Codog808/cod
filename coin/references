@@ -1,1 +1,10 @@
 - https://www.solomon-3d.com/smart-automation-of-coin-recognition/
+
+- https://github.com/breezedeus/Coin-CLIP
+	Up to date coin feature extraction. *** Should go into more *** 12/12/23
+
+- https://github.com/reymundvirtus/Coin_Recognition
+	an example of what the code may look like using opencv
+
+- https://github.com/GreenIron/Recoinition
+	Information on how to read the text on the coin
