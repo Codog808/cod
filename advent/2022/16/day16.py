@@ -12,10 +12,25 @@ You can open a system of tunnels with valves that opens pipes
 - the minutes-left * flow-rate = pressure_release
 
 Find out how to release as much pressure as possible.
+
+references:
+    - https://www.youtube.com/watch?v=bLMj50cpOug&list=PLnNm9syGLD3yf-YW-a5XNh1CJN07xr0Kz&index=16
+        a video explaining how to solve the problem. 
 """
 def p1(filename):
+    # dictionaries
+    valves = {}
+    tunnels = {}
     for line in open(filename):
-        print(line)
+        # print(line)
+        line = line.strip()
+        valve = line.split()[1]
+        flow = int(line.split(";")[0].split("=")[1])
+        targets = line.split("to ")[1].split(" ", 1)[1].split(", ")
+        # print(line)
+        # print(valve, flow, targets)
+        valves[valve] = flow
+        tunnels[valve] = targets
 
     print("Answer to part 1: ")
 
@@ -26,4 +41,4 @@ def p2(filename):
     print("Answer to part 2: ")
 
 p1("example")
-p2("example")
+# p2("example")
