@@ -1,4 +1,9 @@
 """
+Credit and References:
+- https://www.youtube.com/watch?v=bLMj50cpOug&list=PLnNm9syGLD3yf-YW-a5XNh1CJN07xr0Kz&index=16
+    a video explaining how to solve the problem. 
+- https://github.com/womogenes/AoC-2021-Solutions/blob/main/day_16/day_16_p1.py
+        
 Elephants have a hand-held device that sends a distress beacon.
 
 We need to get the elephants out of the cave
@@ -13,9 +18,7 @@ You can open a system of tunnels with valves that opens pipes
 
 Find out how to release as much pressure as possible.
 
-references:
-    - https://www.youtube.com/watch?v=bLMj50cpOug&list=PLnNm9syGLD3yf-YW-a5XNh1CJN07xr0Kz&index=16
-        a video explaining how to solve the problem. 
+
 """
 from collections import deque
 
@@ -34,7 +37,7 @@ def dfs (time, valve, bitmask, cache):
         maxval = max(maxval, dfs(remtime, neighbor, bitmask | bit, cache) + valves[neighbor] * remtime)
         cache[(time, valve, bitmask)] = maxval
         return maxval
-
+      
 def p1(filename):
     # dictionaries
     valves = {}
