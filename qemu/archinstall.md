@@ -52,7 +52,12 @@ Configure system
     - genfstab -U /mnt >> /mnt/etc/fstab
 - Chroot
     - arch-chroot /mnt; enter the linux environment
-    --- input more later --- 
+    --- input more later ---  12/10/23
+    *** systemd is not set up during installation process, must ls files containing the information needed. ***
+    - Set Time Zone
+        - ls /usr/share/zoneinfo/AREA/; substitute America for AREA if you live are in America
+        - ln -sf /usr/share/zoneinfo/AREA/TIMEZONE /etc/localtime; TIMEZONE could be Los_Angeles
+    --- input more later --- 12/11/23
 
 
 
