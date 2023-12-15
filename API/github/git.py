@@ -37,7 +37,7 @@ def delete_repository(username, token, repo_name):
 
 if __name__ == "__main__":
     import os
-    with open(os.path.expanduser("~/Projects/keys/github")) as f:
+    with open(os.path.expanduser("~/Code/cod/keys/github")) as f:
         key = f.read().strip().split("\n")[0].split(" | ")[0]
         print(key)
     # --- Fix the deleting portion of the code ___ 12/12/23
