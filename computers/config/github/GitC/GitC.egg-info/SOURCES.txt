@@ -1,0 +1,8 @@
+setup.py
+GitC/__init__.py
+GitC/git.py
+GitC/git_commands.json
+GitC.egg-info/PKG-INFO
+GitC.egg-info/SOURCES.txt
+GitC.egg-info/dependency_links.txt
+GitC.egg-info/top_level.txt

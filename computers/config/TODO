@@ -1,0 +1,5 @@
+There is a problem when creating the PS1 files.
+- gremote seems to take gset
+- gset isn't created
+- just start from scratch and see what can be done.
+- there is something weird with the 'gfs' command at the pushing stage

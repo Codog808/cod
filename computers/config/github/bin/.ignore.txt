@@ -1,0 +1,11 @@
+__pycache__/
+venv/
+.git_config.json
+github/bin/__pycache__/
+github/bin/gcheck.ps1
+github/bin/gfs.ps1
+github/bin/git.ps1
+github/bin/gremote.ps1
+github/bin/gset.ps1
+github/bin/gto_main.ps1
+github/bin/gcreate.ps1

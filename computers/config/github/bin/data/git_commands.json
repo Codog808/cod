@@ -1,0 +1,9 @@
+{
+  "add": "git add .",
+  "commit": "git commit -m 'gfs'",
+  "push": "git push -u origin",
+  "pull": "git pull origin",
+  "branch": "git branch",
+  "checkout": "git checkout", 
+  "remote": "git remote add origin"
+}
