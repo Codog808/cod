@@ -12,7 +12,7 @@ def get_repositories(username, token):
         print(f"Error: {response.status_code}")
 
 def delete_repository(username, token, repo_name):
-    url = f"https://api.github.com/repos/{repo_name}"
+    url = f"https://api.github.com/repos/{username}/{repo_name}"
     headers = {"Authorization": f"token {token}"}
     response = requests.delete(url, headers=headers)
     if response.status_code == 200:
@@ -26,5 +26,7 @@ if __name__ == "__main__":
         key = f.read().strip().split("\n")[0].split(" | ")[0]
         print(key)
     # --- Fix the deleting portion of the code ___ 12/12/23
+    repos = get_repositories("Codog808", key)
+    print(repos)
     delete_repository("Codog808", key, "test")
 
