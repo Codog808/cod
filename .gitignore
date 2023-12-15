@@ -4,10 +4,14 @@ htb/
 __pycache__/
 __pyvenv__/
 API/github/__pycache__/
+coin/Recoinition
+coin/Coin_Recognition
+coin/Coin-CLIP
 qemu/htb.img
 qemu/Image.img
 qemu/archlinux.iso
 qemu/prac.img
+Selen/
 Selen/keys.txt
 Selen/codes.txt
 Selen/venv/
