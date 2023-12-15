@@ -1,6 +1,8 @@
 html/
 keys/
 htb/
+venv/
+pyvenv/
 __pycache__/
 __pyvenv__/
 API/github/__pycache__/
