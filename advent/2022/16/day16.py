@@ -22,7 +22,7 @@ Find out how to release as much pressure as possible.
 """
 from collections import deque
 
-def dfs (time, valve, bitmask, cache):
+def dfs (time, valve, bitmask, cache, dists, indices, valves):
     if (time, valve, bitmask) in cache:
         return cache[(time, valve, bitmask)]
 
@@ -34,9 +34,9 @@ def dfs (time, valve, bitmask, cache):
         remtime = time - dists[valve][neighbor] - 1
         if remtime <= 0:
             continue
-        maxval = max(maxval, dfs(remtime, neighbor, bitmask | bit, cache) + valves[neighbor] * remtime)
-        cache[(time, valve, bitmask)] = maxval
-        return maxval
+        maxval = max(maxval, dfs(remtime, neighbor, bitmask | bit, cache, dists, indices, valves)  + valves[neighbor] * remtime)
+    cache[(time, valve, bitmask)] = maxval
+    return maxval
       
 def p1(filename):
     # dictionaries
@@ -64,7 +64,7 @@ def p1(filename):
         dists[valve] = {valve: 0, "AA": 0}
         visted = {valve}
 
-        queue = deque([0, valve])
+        queue = deque([(0, valve)])
         # problem with queue.popleft() 12/12/23
         # Traceback (most recent call last):
         # File "C:\Users\shita\Projects\code\advent\2022\16\day16.py", line 95, in <module>
@@ -93,7 +93,7 @@ def p1(filename):
     cache = {}
 
     print("Answer to part 1: ")
-    print(dfs(30, "AA", 0, cache))
+    print(dfs(30, "AA", 0, cache, dists, indices, valves))
 
 def p2(filename):
     for line in open(filename):
@@ -101,5 +101,7 @@ def p2(filename):
 
     print("Answer to part 2: ")
 
-p1("example")
+# p1("example")
+p1("input")
 # p2("example")
+# p2("input")
