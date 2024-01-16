@@ -1,0 +1,8 @@
+git init
+git add <. (all)> || <filename>	# not the exact command, substitute.
+git commit -m "<message>"
+git remote add origin <https://<key>github.com/...>
+	- or if need to remove origin
+	git remote remove origin
+git branch -M <branch name to make>
+git push -u origin <branch>
