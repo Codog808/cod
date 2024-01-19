@@ -5,6 +5,8 @@ venv/
 pyvenv/
 __pycache__/
 __pyvenv__/
+*.iso
+*.img
 API/github/__pycache__/
 coin/Recoinition
 coin/Coin_Recognition
@@ -13,6 +15,7 @@ qemu/htb.img
 qemu/Image.img
 qemu/archlinux.iso
 qemu/prac.img
+qemu
 Selen/
 Selen/keys.txt
 Selen/codes.txt
