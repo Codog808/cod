@@ -1,0 +1,3 @@
+Crypto is an important space for investment and one of the future ways for exchange in the future.
+The Federal Reserve is owned by bankers of XYZ (unknown), the American currency is tied to the whims of an elite group of weathy individuals. They seem to be working towards the benefit of humankind so they aren't anything to worry about. It is evident that currency is flux, that everyone should have multiple currencies and that means people should get into crypto. Crypto as a means of security for ones safety and the ability to buy whatever the heart desires.
+No president or founding father ever wanted Americans to have the central banking system, they never wanted the Federal Reserve.

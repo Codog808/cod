@@ -3,6 +3,8 @@ keys/
 htb/
 venv/
 pyvenv/
+*.img
+*.iso
 __pycache__/
 __pyvenv__/
 API/github/__pycache__/
@@ -34,6 +36,7 @@ ml/gpt/
 randomizer/venv/
 randomizer/hash.png
 web/
+web_downloader/
 /advent/__pycache__/
 /advent/.git_config.json
 /advent/venv/
