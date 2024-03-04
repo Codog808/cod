@@ -1,0 +1,33 @@
+Now we need to figure out how to piolet the submarine.
+
+Submarine can take a series of commands:
+forward x; increases hoizontal position by x units
+down x; increases depth by x units
+up x; decreases the depth by x units
+
+forward 5
+down 5
+forward 8
+up 3
+down 8
+forward 2
+
+# part 1
+- horizontal (h) and depth (d) both start at 0.
+- each int after command adds or subtract from that corresponding movement.
+* What would you get if you multiply your final horizontal position by your final depth?
+
+# part 2
+
+Based on the calulation found from the previous part the planned course doesn't make sense.
+We mistakenly assumed the process and now, referring the manual, we have found the actual way to do things
+
+We now have to track 'aim'.
+
+down; increases aim by x
+up; decreases aim by x
+forward; 
+   1. increases horizontal position
+   2. increases your depth by your aim multiplied by x
+
+* What do you get now if you multiply your final h position to your final d position.

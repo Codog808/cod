@@ -14,5 +14,13 @@ We scan the sea floor to find the keys. Each line is the sea floor depth
 260
 263
 
+# Part 1
+
 * Find out how quickly the depth increases
 - Count the number of times a depth measurement increases from the previous measurement.
+
+# Part 2
+
+   Using every single measurement isn't that useful, 
+   so we consider sums of three-measurement sliding window. 
+- Count the number of times a depth measurement increases from the previous sliding window sum
