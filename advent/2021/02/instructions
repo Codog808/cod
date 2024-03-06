@@ -24,8 +24,10 @@ We mistakenly assumed the process and now, referring the manual, we have found t
 
 We now have to track 'aim'.
 
-down; increases aim by x
-up; decreases aim by x
+down; 
+   1. increases aim by x
+up; 
+   1. decreases aim by x
 forward; 
    1. increases horizontal position
    2. increases your depth by your aim multiplied by x
